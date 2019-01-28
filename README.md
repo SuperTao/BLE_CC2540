@@ -200,7 +200,7 @@ static uint8 scanRspData[] =
 
 内容和下图对应。
 
-![1](.\picture\1.png)
+![1](./picture/1.png)
 
 ####  SimpleBLEPeripheral_Init第二部分，连接之后，显示的内容。
 
@@ -400,7 +400,7 @@ static uint8 devInfo_ReadAttrCB( uint16 connHandle, gattAttribute_t *pAttr,
   return ( status );
 }
 ```
-![2](.\picture\2.png)
+![2](./picture/2.png)
 
 #### SimpleBLEPeripheral_Init第三部分，用户自定义属性
 
@@ -762,4 +762,4 @@ bStatus_t SimpleProfile_SetParameter( uint8 param, uint8 len, void *value )
 }
 ```
 
-![3](.\picture\3.jpg)
+![3](./picture/3.jpg)
