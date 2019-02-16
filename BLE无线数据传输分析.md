@@ -1,14 +1,14 @@
 插上CC2540 USB Dongle。打开Packet sniffer工具，选择Bluetooth Low Energy。
 
-![7](picture\7.PNG)
+![7](./picture/7.PNG)
 
 选择合适的广播信道，启动Packet sniffer工具。可能需要切换广播信道才可以接受到广播。
 
-![8](picture\8.PNG)
+![8](./picture/8.PNG)
 
 广播包内容如下。
 
-![4](picture\4.png)
+![4](./picture/4.png)
 
 显示了当前广播的通道号0x25(37信道)， 以及广播的数据内容，这一部分内容，与代码中对应。
 
@@ -34,7 +34,7 @@ static uint8 advertData[] =
 
 手机的扫描请求和应答的数据格式如下。
 
-![5](picture\5.jpg)
+![5](./picture/5.jpg)
 
 扫描应答的数据内容和一下代码对应。
 
@@ -81,10 +81,10 @@ static uint8 scanRspData[] =
 
 当使用手机的BLE工具与CC2540开发板连接，可以看到连接请求数据帧如下。
 
-![6](picture\6.png)
+![6](./picture/6.png)
 
 可以发现ScanA的内容和InitA的内容是一样的。可以将这个地址填写到Connected to Initator Address，作为过滤选项。
 
 连接以后就可以进行数据通信，抓取通信过程的数据包。
 
-![9](picture\9.PNG)
+![9](./picture/9.PNG)
