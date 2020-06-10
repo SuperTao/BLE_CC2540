@@ -1,8 +1,16 @@
+## 参考链接
+
+[如何使用CC2540 USB-Dongle进行抓取蓝牙通讯数据包](https://blog.csdn.net/zhuangjitongxue/article/details/49337445)
+
+## 数据分析
+
 插上CC2540 USB Dongle。打开Packet sniffer工具，选择Bluetooth Low Energy。
 
 ![7](./picture/7.PNG)
 
 选择合适的广播信道，启动Packet sniffer工具。可能需要切换广播信道才可以接受到广播。
+
+不勾选的话，捕抓工具将捕抓当前通道上第一个出现的数据连接, 我觉得不勾选反而更容易抓到数据。
 
 ![8](./picture/8.PNG)
 
