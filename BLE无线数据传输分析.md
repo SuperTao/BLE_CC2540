@@ -1,6 +1,8 @@
 ## 参考链接
 
-[如何使用CC2540 USB-Dongle进行抓取蓝牙通讯数据包](https://blog.csdn.net/zhuangjitongxue/article/details/49337445)
+* [如何使用CC2540 USB-Dongle进行抓取蓝牙通讯数据包](https://blog.csdn.net/zhuangjitongxue/article/details/49337445)
+
+* [cc2540 usb-dongle的 SmartRF Packet Sniffer 抓取数据方法](https://blog.csdn.net/huibei_wuhan/article/details/79004311)
 
 ## 数据分析
 
